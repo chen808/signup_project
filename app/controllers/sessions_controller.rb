@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
 	def create
 		# Create user profile
 		user = User.new(user_params)
-		session[:user_id] = @user.id
+		session[:user_id] = user.id
 
 		# authenticate user's password
 		if user && user.authenticate(params["user"][:password])
