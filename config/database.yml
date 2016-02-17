@@ -10,7 +10,7 @@ development:
   encoding: unicode
   database: signup_project_development
   pool: 5
-  username: signup_project
+  username: ubuntu
   password:
 
 test:
@@ -18,7 +18,7 @@ test:
   encoding: unicode
   database: signup_project_test
   pool: 5
-  username: signup_project
+  username: ubuntu
   password:
 
 production:
@@ -26,6 +26,6 @@ production:
   encoding: unicode
   database: signup_project_production
   pool: 5
-  username: signup_project
+  username: ubuntu
   password: 
   # password: <%= ENV['SIGNUP_PROJECT_DATABASE_PASSWORD'] %>
